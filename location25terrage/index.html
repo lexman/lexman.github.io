@@ -34,32 +34,41 @@
     <link href="carousel.css" rel="stylesheet">
     <link href="ekko-lightbox.css" rel="stylesheet">
   </head>
+  
+  
   <body>
-    <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Carousel</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+    <div class="jumbotron text-center">
+      <h1>2 pièces meublé 39m² Paris 10ème</h1>
     </div>
-  </nav>
-</header>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#presentation">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#salon">Salon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chambre">Chambre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cuisine">Cuisine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sdb">Salle de bain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#emplacement">Emplacement</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
 <main role="main">
 
@@ -117,38 +126,42 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-    <h1>2 pièces - 39m² - Paris 10ème</h1>
-    <div>
-    Suite à la naissance de notre fille, nous mettons en location notre apartement.
-    C'est un joli deux pièces de 39m² à louer meublé à deux pas du canal Saint Martin.
-    </div>
-    <div>    
-    Très lumineux : cinq fenêtres, orienté sud
-    </div>
-    <div>    
-    pas de place perdue
-    </div>
-    <div>    
-    Nombreux rangements
+    <div id="presentation">  
+        <h1 >2 pièces - 39m² - Paris 10ème</h1>
+        <p>
+        Suite à la naissance de notre fille, nous mettons en location notre apartement.
+        C'est un joli deux pièces de 39m² à louer meublé à deux pas du canal Saint Martin.
+        </p>
+        <p>    
+        Très lumineux : cinq fenêtres, orienté sud
+        </p>
+        <p>    
+        Pas de place perdue
+        </p>
+        <p>    
+        Nombreux rangements
+        </p>
+        <p>    
+        1390 € / mois
+        </p>
     </div>
     
-    
-    
-    <div>
-    <h1 >Grand salon - 18 m²</h1>
-        <p class="lead">
-            <ul>
-            <li>Deux fenêtres donnant sur l'impasse Boutron </li>
-            <li>Semi-ouvert sur la cuisine </li>
-            <li>Grande bibliothèque </li>
-            <li>Commode </li>
-            <li>Un canapé (le gris)</li>
-            </ul>
+    <hr class="featurette-divider">    
+    <div id="salon">
+        <h1 >Grand salon - 18 m²</h1>
+            <p class="lead">
+              <ul>
+                <li>Deux fenêtres donnant sur l'impasse Boutron </li>
+                <li>Semi-ouvert sur la cuisine </li>
+                <li>Grande bibliothèque </li>
+                <li>Commode </li>
+                <li>Un canapé (le gris)</li>
+              </ul>
             </p>
     </div>
     
     <div class="row justify-content-center">
-    <div >
+      <div >
         <div class="row">
             <a href="photos/salon1.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
                 <img src="photos/salon1.jpg" class="img-fluid">
@@ -165,12 +178,11 @@
                 <img src="photos/salon5.jpg" class="img-fluid">
             </a>
             <a href="photos/salon3.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon3.jpg" class="img-fluid">
+                <img src="photos/salon3.jpg" class="img-fluid" >
             </a>
         </div>
+      </div>
     </div>
-
-</div>
     <hr class="featurette-divider">
     
   <div>
@@ -179,64 +191,86 @@
         <li>réfrigérateur</li>
         <li>congélateur</li>
         <li>four encastré (nettoyage pyrolyse)</li>
-        <li>deux palques de cuisson</li>
+        <li>deux palques de cuisson électriques</li>
         <li>hotte</li>
         <li>emplacement pour four à micro-ondes ou lave vaiselle 6 couverts :)</li>
-        <li>fenêtre</li>
+        <li>nombreux placards</li>
+        <li>fenêtre donnant sur le puit de jour</li>
     </ul>
     <div class="row justify-content-center">
     <div >
         <div class="row">
-            <a href="photos/cuisine1.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon1.jpg" class="img-fluid">
+            <a href="photos/cuisine1.jpg" data-toggle="lightbox" data-gallery="cuisine-gallery" class="col-sm-4">
+                <img src="photos/cuisine1.jpg" class="img-fluid">
             </a>
         </div>
     </div>
 
   </div>
-    <hr class="featurette-divider">
-  
+  <hr class="featurette-divider">  
   <div>
     <h1>Chambre</h1>
     <ul>
         <li>large fenêtre (double vitrage) donnant sur l'impasse Boutron</li>
         <li>grande penderie et petit placard</li>
+        <li>Peut aussi s'aménager en chambre d'enfant, mais vous devrez dormir dans le salon :)</li>
     </ul>
     <div class="row justify-content-center">
     <div >
         <div class="row">
-            <a href="photos/chambre1.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon1.jpg" class="img-fluid">
+            <a href="photos/chambre1.jpg" data-toggle="lightbox" data-gallery="chambre-gallery" class="col-sm-4">
+                <img src="photos/chambre1.jpg" class="img-fluid">
             </a>
-            <a href="photos/chambre2.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon2.jpg" class="img-fluid">
+            <a href="photos/chambre2.jpg" data-toggle="lightbox" data-gallery="chambre-gallery" class="col-sm-4">
+                <img src="photos/chambre2.jpg" class="img-fluid">
             </a>
         </div>
     </div>
   </div>
       <hr class="featurette-divider">
 
-  <div>
+  <div id="sdb">
     <h1>Salle de bain</h1>
     <ul>
     <li>baignoire</li>
     <li>nombreux rangements</li>
     <li>emplacement pour lave linge (45 cm)</li>
-    <li>fenêtre</li>
+    <li>fenêtre donnant sur le puit de jour</li>
     </ul>
     <div class="row justify-content-center">
     <div >
         <div class="row">
             <a href="photos/sdb1.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon1.jpg" class="img-fluid">
+                <img src="photos/sdb1.jpg" class="img-fluid">
             </a>
             <a href="photos/sdb2.jpg" data-toggle="lightbox" data-gallery="salon-gallery" class="col-sm-4">
-                <img src="photos/salon2.jpg" class="img-fluid">
+                <img src="photos/sdb2.jpg" class="img-fluid">
             </a>
         </div>
     </div>
   </div>
 
+  <div id="emplacement">
+    <h1>Emplacement</h1>
+    <ul>
+    <li>Accès : <a href="https://fr.mappy.com/#/7/M2/TSearch/S25+Rue+du+Terrage%2C+75010+Paris/N151.12061,6.11309,2.36242,48.8775/Z16/">25 rue du terrage - Paris 75010</a></li>
+    <li>4ème étage</li>
+    <li>L'appartement donne sur l'impasse Boutron</li>
+    <li>A deux pas de la gare de l'Est : métros 4, 5, 7, Transilien P, TGV Est, TGV vers l'Allemagne</li>
+    <li>Gare du Nord à 10 minutes à pied</li>
+    <li>A deux pas du canal St Martin et du parc Villemin </li> 
+    </ul>
+  </div>
+
+  <div id="location">
+    <h1>Location</h1>
+    <ul>
+    <li>Loyer : 1260 € / mois</li>
+    <li>Charges : 130 € / mois</li>
+    <li>Dépôt de garantie : 1260 €</li>
+    <li>Cave disponible au 1er octobe (après travaux) : +30 € /mois</li>
+    </ul>
+  </div>
 
     <!-- START THE FEATURETTES -->
 
@@ -262,42 +296,6 @@
           <img src="photos/salon1.jpg" width="500" height="500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" ²preserveAspectRatio="xMidYMid slice" focusable="false" />
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Chambre <span class="text-muted"></span></h2>
-        <p class="lead">
-            <ul>
-            <li>Large fenêtre (double vitrage) donnant sur l'impasse Boutron</li>
-            <li>Grande penderie et petit placard</li>
-            <li>Peut s'aménager en chambre d'enfant, mais il faudra alors dormir dans le salon :)</li>
-            </ul>
-
-            
-            </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-          <img src="photos/salon2.jpg" width="500" height="500" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" ²preserveAspectRatio="xMidYMid slice" focusable="false" />
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
 
