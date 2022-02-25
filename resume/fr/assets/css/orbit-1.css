@@ -93,8 +93,13 @@ p {
   margin-bottom: 0;
 }
 
-.sidebar-wrapper .profile {
+.sidebar-wrapper {
   margin-bottom: 15px;
+}
+
+.profile {
+  margin-bottom: 15px;
+  border-radius: 85px;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
