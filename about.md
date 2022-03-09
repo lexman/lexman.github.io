@@ -14,4 +14,4 @@ I also [teach trampoline](http://www.paristrampo12.com/) 🤸
 
 
 ### Contact me
-blog✉@lexman.org
+blogcontact✉️@lexman.org
