@@ -1,20 +1,15 @@
 ---
-layout: default
-title: Blog
-permalink: /blog/
+layout: page
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+My [resume](resume/fr/) (in French)
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+Presentations
+* [Etendre les fonctionnalité Python avec du C++](https://www.slideshare.net/cppfrug/meetup-cpp) - 2014
+* [Continuous Processing]http://me.lexman.net/prez-tuttle/Continuous%20processing.html - 2016
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+Articles
+* [Continuous processing with Data Packages](https://okfnlabs.org/blog/2016/07/13/continuous-processing-with-data-packages.html)
+* [make vs tuttle as a data build system](https://okfnlabs.org/blog/2016/03/25/make-vs-tuttle.html)
+* [blog](/blog/) (Comming soon)
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
