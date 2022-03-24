@@ -41,6 +41,11 @@ p {
   line-height: 1.5;
 }
 
+.p-mission {
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
 .wrapper {
   background: #42A8C0;
   max-width: 960px;
@@ -88,8 +93,13 @@ p {
   margin-bottom: 0;
 }
 
-.sidebar-wrapper .profile {
+.sidebar-wrapper {
   margin-bottom: 15px;
+}
+
+.profile {
+  margin-bottom: 15px;
+  border-radius: 85px;
 }
 
 .sidebar-wrapper .contact-list .svg-inline--fa {
@@ -236,9 +246,17 @@ p {
 
 .main-wrapper .job-title {
   color: #3F4650;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 500;
+}
+
+.main-wrapper .job-mission {
+  color: #3F4650;
+  font-size: 14px;
+  margin-top: 0;
+  #margin-bottom: 0;
   font-weight: 500;
 }
 
