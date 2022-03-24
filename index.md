@@ -2,7 +2,7 @@
 layout: page
 ---
 
-My [resume](/resume/fr/) (🇫🇷) [⬇](http://me.lexman.net/resume/fr/Alexandre%20Bonnasseau%20-%20Senior%20Data%20Manager.pdf)
+My [resume 🇬🇧](/resume/en/) [(🇫🇷)](/resume/fr/) [⬇](http://me.lexman.net/resume/fr/Alexandre%20Bonnasseau%20-%20Senior%20Data%20Manager.pdf)
 
 
 Presentations
@@ -18,7 +18,8 @@ Articles
 
 [Open data](https://www.data.gouv.fr/fr/users/alexandre-bonnasseau/)
 
-Professional projects
-* I made the map for the twelve million users of [Mappy](mappy.com) !
+Professional achivements :
+* mapping sofware [CORTO](https://www.dailymotion.com/video/x2hhyf3) - 2002
+* I made the map for the twelve million users of [Mappy](mappy.com) ! And all the geographic plateform
 * Social web site for [Scroll Show](https://www.facebook.com/Scrollshow/) - 2012
 * [Order your covid QR code](https://carte-sanitaire.fr/) on a PVC card shipped all over France - 2021
