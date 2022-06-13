@@ -10,7 +10,7 @@ Presentations
 * [Continuous Processing](http://me.lexman.net/prez-tuttle/Continuous%20processing.html) - 2016
 
 Articles
-* [TRIBUNE : Laissez une trace de votre hackathon!] (https://discuss.okfn.org/t/tribune-laissez-une-trace-de-votre-hackathon/2926) (🇫🇷) 
+* [TRIBUNE : Laissez une trace de votre hackathon!](https://discuss.okfn.org/t/tribune-laissez-une-trace-de-votre-hackathon/2926) (🇫🇷) 
 * [Applying Continuous processing to Data Packages](https://okfnlabs.org/blog/2016/07/13/continuous-processing-with-data-packages.html)
 * [make vs tuttle as a data build system](https://okfnlabs.org/blog/2016/03/25/make-vs-tuttle.html)
 * [blog](/blog/) comming soon !
