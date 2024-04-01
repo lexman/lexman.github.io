@@ -356,3 +356,9 @@ p {
     margin-bottom: 0;
   }
 }
+.hide-on-screen {display:none;}
+.yesPrint, .noPrint {display:block;}
+@media print {
+   .noPrint {display:none;}
+   .hide-on-screen {display:block;}
+}

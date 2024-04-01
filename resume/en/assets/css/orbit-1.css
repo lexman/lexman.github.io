@@ -356,3 +356,8 @@ p {
     margin-bottom: 0;
   }
 }
+
+@media print {
+   .noPrint {display:none;}
+   .hide-on-screen {display:block;}
+}
